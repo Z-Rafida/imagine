@@ -64,7 +64,42 @@ const bottle1 = {
   
   
   
-  
+  // function
+// defining a function
+// use function keyword and the name you want to assign to the function
+// return is like an output function
+function login(username, password){
+  // validate the username and password
+  if (!username|| !password) {
+    return 'username or password not provided'
+  }
+  //  || == or, && == and
+  // verify username and password
+  if (username == 'Rafie' && password == '1234'){
+    return 'User is logged in';
+  } else{
+    return 'invalid username or password'
+  }
+}
+
+// invoking a function
+// you invoke a funtion by using the name of the function and add parenthesis
+login('Rafie');
+
+
+
+// (===) = strict equality
+// 
+
+// basic arithmetic operations
+11 +10
+50-25
+50/5
+10*3
+14%3
+Math.round(18/5)
+Math.random() *1000  
+Math.max(34,45,61)
   
   
   
