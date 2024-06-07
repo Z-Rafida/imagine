@@ -104,8 +104,32 @@ Math.max(34,45,61)
   
   
   
-  
-  
+  // strings iin javascript
+// concatenation
+const firstname = 'Rafida';
+const lastname = 'Zakaria';
+firstname + ' ' + lastname;
+// Template literal
+`${firstname} ${lastname}`;
+
+// string Methods
+
+let fullname = "rafida zakaria"
+fullname.length
+fullname.toUpperCase()
+fullname.charAt(8)
+fullname.slice(7,14)
+fullname.split("")
+fullname.replace("zakaria", "yakubu")
+
+// string conversion
+parseInt('3.243')
+Number("3.243")
+parseFloat('3.243')
+let amount = 1600
+amount.toString()
+// use back ticks instead of qoutes`   
+console.log(`GHS ${1600}`)
   
   
   
