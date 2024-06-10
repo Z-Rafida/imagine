@@ -131,7 +131,45 @@ amount.toString()
 // use back ticks instead of qoutes`   
 console.log(`GHS ${1600}`)
   
-  
+  // // write a function that will add a participant to our Google Classroom.
+
+
+// function to add someone
+const participant = [];
+function addParticipant(email){
+  // check if email was provided
+  if (email=== undefined || email === null){
+    return 'No email provided';
+  }
+  // check if email is valid
+  if (!email.includes ('@'))
+    return 'invalid email provided'
+
+  // add email to participatants
+  participant.push(email)
+  return 'Participant added'
+}
+addParticipant('zakariarafida81@gmail.com');
+('zakariarafida81@gmail.com')
+addParticipant()
+participant;
+
+
+// Arraya in Javascript
+const users = [
+  {
+    username:'Rafie',
+    password:'1234',
+    email:'zakariarafida81@gmail.com'
+  },
+  {
+    username:'Rafida',
+    password:'12345',
+    email:'zakariarafida81@yahoo.com'
+  }
+];
+
+
   
   
   
