@@ -156,18 +156,18 @@ participant;
 
 
 // Arraya in Javascript
-const users = [
-  {
-    username:'Rafie',
-    password:'1234',
-    email:'zakariarafida81@gmail.com'
-  },
-  {
-    username:'Rafida',
-    password:'12345',
-    email:'zakariarafida81@yahoo.com'
-  }
-];
+// const users = [
+//   {
+//     username:'Rafie',
+//     password:'1234',
+//     email:'zakariarafida81@gmail.com'
+//   },
+//   {
+//     username:'Rafida',
+//     password:'12345',
+//     email:'zakariarafida81@yahoo.com'
+//   }
+// ];
 
 
   // write a function that will take a user with firstname, lastname and return fullname;
