@@ -211,6 +211,19 @@ isEven(6);
 numbers.filter(isEven)
 
   
+// classes in javaScript
+class Laptop {
+  constructor(brand, color){
+    this.brand = brand;
+    this.color = color;
+  }
+}
+
+const laptop1 = new Laptop ('Dell', 'black');
+const laptop2 = new Laptop ('HP', 'silver');
+laptop1.brand;
+laptop2.brand;
+
   
   
   
